@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DebugThugs">
+        <activity
+            android:name=".ChooseSpell"
+            android:label="@string/title_activity_choose_spell"
+            android:theme="@style/Theme.DebugThugs.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
