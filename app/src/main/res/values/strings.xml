@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DebugThugs</string>
+    <string name="diamond">diamond</string>
+    <string name="start">Start</string>
+    <string name="wizard_game_thing">Wizard Game Thing</string>
+    <string name="magic_hat">magic hat</string>
+    <string name="wizardo">Wizardo</string>
 </resources>
