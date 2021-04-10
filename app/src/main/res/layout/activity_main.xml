@@ -39,6 +39,7 @@
             android:textAlignment="center"
             android:layout_marginHorizontal="62sp"
             android:textSize="34sp"
+            android:onClick="goToChooseSpell"
             android:textColor="@color/black"/>
 
     </LinearLayout>
