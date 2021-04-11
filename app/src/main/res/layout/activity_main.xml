@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="fill"
-        android:orientation = "vertical" >
+    <ImageButton
+        android:id="@+id/TicTacToe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToTTT"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/download1">
 
-        <ImageView
-            android:id="@+id/mageHat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/magic_hat"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/magic_show_05_512" />
+    </ImageButton>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="32dp"
-            android:textSize="48sp"
-            android:text="@string/wizardo"
-            android:textAlignment="center"
-            android:textColor="@color/black"/>
+    <ImageButton
+        android:id="@+id/rockpaperscissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="goToRPS"
+        android:src="@drawable/_">
 
-        <Button
-            android:id="@+id/Start"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/start"
-            android:textAlignment="center"
-            android:layout_marginHorizontal="62sp"
-            android:textSize="34sp"
-            android:onClick="goToChooseSpell"
-            android:textColor="@color/black"/>
+    </ImageButton>
 
-    </LinearLayout>
+    <ImageButton
+        android:id="@+id/CoinFlip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToCoinF"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/download">
 
-</android.support.constraint.ConstraintLayout>
+    </ImageButton>
+
+</LinearLayout>

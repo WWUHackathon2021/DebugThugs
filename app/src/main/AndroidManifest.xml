@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DebugThugs">
         <activity
+            android:name=".RockPaperScissors"
+            android:label="@string/title_activity_rock_paper_scissors"
+            android:theme="@style/Theme.DebugThugs.NoActionBar"></activity>
+        <activity
+            android:name=".CoinFlip"
+            android:label="@string/title_activity_coin_flip"
+            android:theme="@style/Theme.DebugThugs.NoActionBar" />
+        <activity
+            android:name=".TicTacToe"
+            android:label="@string/title_activity_tic_tac_toe"
+            android:theme="@style/Theme.DebugThugs.NoActionBar" />
+        <activity
             android:name=".ChooseSpell"
             android:label="@string/title_activity_choose_spell"
             android:theme="@style/Theme.DebugThugs.NoActionBar" />
