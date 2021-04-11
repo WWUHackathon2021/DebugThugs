@@ -19,7 +19,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz12" -> {
                 cd = 90
@@ -27,7 +27,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz13" -> {
                 cd = 90
@@ -35,7 +35,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz21" -> {
                 cd = 90
@@ -43,7 +43,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz22" -> {
                 cd = 90
@@ -51,7 +51,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz23" -> {
                 cd = 90
@@ -59,7 +59,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz31" -> {
                 cd = 90
@@ -67,7 +67,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz32" -> {
                 cd = 90
@@ -75,7 +75,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
             "wiz33" -> {
                 cd = 90
@@ -83,7 +83,7 @@ class Spell () {
                 duration = 20
                 radius = 300
                 spellName = "Wall of Fire"
-                spellIcon.setImageResource(R.drawable.spell_icon1)
+                spellIcon!!.setImageResource(R.drawable.spell_icon1)
             }
         }
     }
