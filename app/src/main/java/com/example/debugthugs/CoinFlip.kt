@@ -12,12 +12,12 @@ class CoinFlip : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coin_flip)
 
-        // Wait for the button to be flipped
+        // Wait for the startNewGameButton to be flipped
         val btn: Button = findViewById(R.id.flipButton)
         btn.setOnClickListener { onClick() }
     }
 
-    // Method to flip the coin when the button has been clicked
+    // Method to flip the coin when the startNewGameButton has been clicked
     private fun onClick() {
 
         val rand = (1..2).random() // Heads or Tails
