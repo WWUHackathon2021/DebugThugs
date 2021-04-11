@@ -9,34 +9,34 @@
 
     <ImageButton
         android:id="@+id/TicTacToe"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="goToTTT"
         android:layout_weight="1"
         android:layout_gravity="center"
-        android:src="@drawable/download1">
+        android:src="@drawable/ttt">
 
     </ImageButton>
 
     <ImageButton
         android:id="@+id/rockpaperscissors"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_gravity="center"
         android:onClick="goToRPS"
-        android:src="@drawable/_">
+        android:src="@drawable/rps">
 
     </ImageButton>
 
     <ImageButton
         android:id="@+id/CoinFlip"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="goToCoinF"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:src="@drawable/download">
+        android:src="@drawable/coin">
 
     </ImageButton>
 
